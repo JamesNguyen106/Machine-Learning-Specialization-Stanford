@@ -1,83 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machine Learning Specialization Notes</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        .readme-container h1, .readme-container h2, .readme-container h3 {
-            border-bottom: 1px solid #4a5568; /* md:border-gray-700 */
-            padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
-        }
-    </style>
-</head>
-<body class="bg-gray-900 text-gray-200 flex items-center justify-center min-h-screen p-4 sm:p-6 lg:p-8">
+🤖 Machine Learning Specialization - Stanford & DeepLearning.AI 🧠
+► Introduction
+This repository contains my personal notes, code implementations, and summaries from the Machine Learning Specialization offered by Stanford University and DeepLearning.AI on Coursera. This specialization provides a broad introduction to modern machine learning, from supervised learning to deep learning, reinforcement learning, and best practices.
 
-    <div class="readme-container bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 max-w-4xl w-full border border-gray-700">
+The goal of this repository is to solidify my own understanding of the concepts and to serve as a reference for future projects.
 
-        <!-- Main Title -->
-        <h1 class="text-3xl sm:text-4xl font-bold mb-4 text-center text-white">
-            🤖 Machine Learning Specialization Notes 🧠
-        </h1>
-        <p class="text-center text-gray-400 mb-8">
-            My personal notes and summaries for the DeepLearning.AI & Stanford Machine Learning Specialization on Coursera.
-        </p>
+📚 Courses Covered
+The specialization is divided into three comprehensive courses:
 
-        <!-- Course 1: Supervised Machine Learning -->
-        <div class="course-section mb-8">
-            <h2 class="text-2xl font-semibold text-cyan-400">
-                📈 Course 1: Supervised Machine Learning: Regression and Classification
-            </h2>
-            <p class="text-gray-300 mt-4 mb-4">
-                This course covers the foundational concepts of supervised learning. We build models for regression (predicting numbers) and classification (predicting categories).
-            </p>
-            <ul class="list-disc list-inside space-y-2 text-gray-300">
-                <li><strong>Linear Regression:</strong> Predicting housing prices. 🏡</li>
-                <li><strong>Logistic Regression:</strong> Classifying tumors as malignant or benign. 🩺</li>
-                <li><strong>Cost Functions & Gradient Descent:</strong> The core of how models learn. 📉</li>
-                <li><strong>Regularization:</strong> Techniques to prevent overfitting. 🛡️</li>
-            </ul>
-        </div>
+📈 Course 1: Supervised Machine Learning: Regression and Classification
+This course covers the foundational concepts of supervised learning. We build models for regression (predicting continuous values) and classification (predicting discrete categories).
 
-        <!-- Course 2: Advanced Learning Algorithms -->
-        <div class="course-section mb-8">
-            <h2 class="text-2xl font-semibold text-purple-400">
-                🚀 Course 2: Advanced Learning Algorithms
-            </h2>
-            <p class="text-gray-300 mt-4 mb-4">
-                Diving deeper into more complex and powerful algorithms, with a focus on neural networks and decision trees.
-            </p>
-            <ul class="list-disc list-inside space-y-2 text-gray-300">
-                <li><strong>Neural Networks:</strong> Understanding the architecture and building them with TensorFlow. 🧠</li>
-                <li><strong>Activation Functions:</strong> ReLU, Sigmoid, and their roles. ⚙️</li>
-                <li><strong>Decision Trees & Ensemble Methods:</strong> Harnessing the power of multiple models (Random Forest, XGBoost). 🌳</li>
-                <li><strong>Advice for Applying ML:</strong> Best practices for model development (train/dev/test sets, debugging). 🛠️</li>
-            </ul>
-        </div>
+Key Topics:
 
-        <!-- Course 3: Unsupervised Learning, Recommenders, Reinforcement Learning -->
-        <div class="course-section">
-            <h2 class="text-2xl font-semibold text-amber-400">
-                🧐 Course 3: Unsupervised Learning, Recommenders, & Reinforcement Learning
-            </h2>
-            <p class="text-gray-300 mt-4 mb-4">
-                Exploring algorithms that learn from unlabeled data, build recommendation systems, and train agents to make decisions.
-            </p>
-            <ul class="list-disc list-inside space-y-2 text-gray-300">
-                <li><strong>Clustering:</strong> Finding groups in data with K-Means. 📊</li>
-                <li><strong>Anomaly Detection:</strong> Identifying unusual data points, like for fraud detection. 🕵️‍♀️</li>
-                <li><strong>Recommender Systems:</strong> Building systems like those used by Netflix and Amazon (Collaborative Filtering). 🎬🛍️</li>
-                <li><strong>Reinforcement Learning:</strong> Training an agent to win a game (Markov Decision Processes, Q-Learning). 🎮</li>
-            </ul>
-        </div>
+Linear Regression: Model, cost function, and gradient descent.
 
-    </div>
+Logistic Regression: Classification models, decision boundaries.
 
-</body>
-</html>
+Overfitting & Regularization: Techniques like L1/L2 regularization to improve model generalization.
+
+Practical Advice: How to apply and evaluate learning algorithms.
+
+🚀 Course 2: Advanced Learning Algorithms
+This course delves into more complex and powerful algorithms, with a focus on neural networks and decision trees.
+
+Key Topics:
+
+Neural Networks: Architecture, forward propagation, and backpropagation.
+
+Building Neural Networks with TensorFlow: A practical, hands-on approach.
+
+Activation Functions: Understanding the roles of Sigmoid, Tanh, and ReLU.
+
+Decision Trees & Ensemble Methods: Using multiple models together (Random Forests, XGBoost).
+
+Advice for Applying ML: Best practices for model development, including setting up train/dev/test sets and debugging.
+
+🧐 Course 3: Unsupervised Learning, Recommenders, & Reinforcement Learning
+This course explores algorithms that learn from unlabeled data, build recommendation systems, and train agents to make decisions in an environment.
+
+Key Topics:
+
+Unsupervised Learning:
+
+Clustering: Grouping similar data points with K-Means.
+
+Anomaly Detection: Identifying unusual data points for applications like fraud detection.
+
+Recommender Systems:
+
+Collaborative Filtering: Building systems like those used by Netflix and Amazon.
+
+Content-Based Filtering: Recommending items based on their features.
+
+Reinforcement Learning:
+
+Markov Decision Processes (MDPs): Formalizing the RL problem.
+
+Q-Learning: Training an agent to maximize rewards.
+
+► How to Use This Repository
+Feel free to browse the folders for each course. Inside, you will find my lecture notes (often in Markdown format) and Python notebooks (.ipynb) with code examples and implementations of the algorithms discussed.
+
+Clone the repository:
+
+git clone https://github.com/your-username/Machine-Learning-Specialization-Stanford.git
+
+Explore the directories for notes and code related to each course week.
+
+► Disclaimer
+These are my personal notes and are not a substitute for the official course content. They are intended for study and review purposes. There may be errors or omissions.
