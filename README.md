@@ -16,25 +16,6 @@ Course 2: Advanced Learning Algorithms
 
 Course 3: Unsupervised Learning, Recommenders, Reinforcement Learning
 
-## 📂 Repository Structure
-This repository is organized according to the course structure, with each directory corresponding to a Course module and containing notes arranged by week or topic.
-
-.
-├── Course 1 - Supervised ML/
-│   ├── Week 1 - Intro & Linear Regression/
-│   │   └── notes.md
-│   ├── Week 2 - Logistic Regression/
-│   │   └── notes.md
-│   └── ...
-├── Course 2 - Advanced Learning/
-│   ├── Week 1 - Neural Networks/
-│   │   └── notes.md
-│   └── ...
-├── Course 3 - Unsupervised Learning/
-│   ├── Week 1 - Clustering/
-│   │   └── notes.md
-│   └── ...
-└── README.md
 
 ## 📝 Notes Content
 Each note file (typically .md or Jupyter Notebook .ipynb) may include:
